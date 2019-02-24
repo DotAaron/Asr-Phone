@@ -80,7 +80,7 @@ namespace asrphone
 
         public void TestServer()
         {
-            multiversprotocol.tcpsocket.srvIP = "89.92.176.192";
+            multiversprotocol.tcpsocket.srvIP = "YOUR_ASR_IP";
             multiversprotocol.tcpsocket.srvPort = 100;
             multiversprotocol.mp.tcpSend(Encoding.Unicode.GetBytes("asrphone_byte_test"));
 
